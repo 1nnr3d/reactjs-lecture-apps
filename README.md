@@ -1,2 +1,1 @@
-# reactjs-lecture-apps
-ReactJS Lecture Apps
+# ReactJS Lecture Apps
