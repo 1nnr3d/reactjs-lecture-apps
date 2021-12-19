@@ -8,7 +8,7 @@ export default function Body({ todoList, setTodoList, selected }) {
           : todo
   });
 
-  /* Yapılacaklar listesinden eleman silme */
+  /* Yapılacaklar listesinden task silme */
   const onDeleteTodo = (todoID) => {
     const newTodoList = todoList.filter(todo => todo.id !== todoID);
     setTodoList(newTodoList);
@@ -30,7 +30,7 @@ export default function Body({ todoList, setTodoList, selected }) {
 
         <ul className="todo-list">
           {
-            filtered.map((todo) => (
+            filtered.map((todo) => ( // Yapılacaklar listesinin listelenmesi
               <li
                 className={todo.status === true ? "completed" : ""}
                 key={todo.id}

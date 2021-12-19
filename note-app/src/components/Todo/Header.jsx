@@ -15,7 +15,7 @@ export default function Header({ todoList, setTodoList }) {
   const onSubmitTodo = (e) => {
     e.preventDefault(); // Submit olayı gerçekleştiğinde sayfanın yeniden yüklenmesini engellemesi
 
-    setTodoList([...todoList, form]); // Yapılacaklar listesine yeni not eklenmesi
+    setTodoList([...todoList, form]); // Yapılacaklar listesine yeni task eklenmesi
 
     setForm({ ...form, id: uniqid.process("todo-"), text: "" }) // Form yapısının temizlenmesi
   }
