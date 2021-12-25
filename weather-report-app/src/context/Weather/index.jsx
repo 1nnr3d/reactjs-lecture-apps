@@ -15,7 +15,7 @@ export const WeatherProvider = ({ children }) => {
         "data.city": city
       },
       headers: {
-        "authorization": "apikey 4RRdoepOu9LI47bS0KLs6E:2OYd8c7Z6HPaFLnhvEZdLw",
+        "authorization": "{API_KEY}", // Change API KEY
         "content-type": "application/json"
       }
     }).then((dt) => setCityInfo(dt.data['result'])) //Week array
