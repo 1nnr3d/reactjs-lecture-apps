@@ -11,7 +11,7 @@ function DayCard({ report, currentDay }) {
               <img src={report.icon} width="58px" className="img-circle mx-auto" alt="weather-icon" />
             </div>
             <div className="text-center fs-5">
-              {report.min}° {report.max}°
+              {report.min}° <span className="opacity-50">{report.max}°</span>
             </div>
           </div>
         </div>
