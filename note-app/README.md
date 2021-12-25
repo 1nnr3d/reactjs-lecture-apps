@@ -8,5 +8,4 @@
 - Task filtreleme
 
 ## Kullanılan Paketler
-
 - [uniqid](https://www.npmjs.com/package/uniqid)
