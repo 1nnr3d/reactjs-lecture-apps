@@ -6,7 +6,7 @@ import { WeatherProvider } from '../../context/Weather'
 
 function WeatherReport() {
   return (
-    <div className="card px-5 py-5" style={{ "border-radius": "18px" }}>
+    <div className="card px-5 py-5" style={{ "borderRadius": "18px" }}>
       <h1 className="title text-center">Weather Report App</h1>
       <br />
       <WeatherProvider>
