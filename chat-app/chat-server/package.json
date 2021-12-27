@@ -1,0 +1,16 @@
+{
+  "name": "chat-app-backend",
+  "version": "1.0.0",
+  "description": "Chat APP Backend",
+  "main": "app.js",
+  "author": "1nnr3d",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  },
+  "scripts": {
+    "start": "nodemon ./"
+  }
+}
