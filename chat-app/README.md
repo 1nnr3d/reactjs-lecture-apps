@@ -1,4 +1,4 @@
-# Basic Chat App
+# **Simple Chat App**
 
 ![...](Animation.gif)
 
